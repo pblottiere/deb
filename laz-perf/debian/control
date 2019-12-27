@@ -1,0 +1,14 @@
+Source: laz-perf
+Maintainer: Paul Blottiere <blottiere.paul@gmail.com>
+Section: science
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: cmake
+
+Package: laz-perf
+Architecture: any
+Depends:
+Description: Alternative LAZ implementation for C++ and JavaScript
+ It supports compilation and usage in JavaScript, usage in database contexts
+ such as pgpointcloud and Oracle Point Cloud, and it executes faster than
+ the LASzip codebase.
